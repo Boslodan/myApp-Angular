@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#navBar{
+    display: grid;
+    grid-template-rows: 4em auto;
+}
+
+#navigacija{
+    background-color: rgb(198, 7, 7);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+#navigacija>ul {
+    list-style-type: none;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 140px 140px;
+}
+
+#navigacija>ul>li{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}

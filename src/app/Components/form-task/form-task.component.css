@@ -1,0 +1,12 @@
+/* Postavljamo sve elemente da budu jedan ispod drugog */
+label,
+input,
+select,
+button {
+  display: block;
+  margin-bottom: 10px; /* Dodajemo malu razdaljinu između elemenata */
+}
+
+label{
+    margin-top: 10px;
+}
